@@ -168,8 +168,7 @@ voiceButtons.forEach(btn => {
 // Production (deployed site) -> Render backend. Replace the placeholder below
 // with your real Render URL after creating the service, e.g.
 // https://travel-guide-api.onrender.com
-const RENDER_BACKEND_URL = 'https://YOUR-RENDER-BACKEND.onrender.com';
-
+const RENDER_BACKEND_URL = 'https://travel-guide-2jpz.onrender.com';
 const _hostname = window.location.hostname;
 const _isLocal = _hostname === '' || _hostname === 'localhost' || _hostname === '127.0.0.1';
 const API_BASE_URL = _isLocal ? 'http://127.0.0.1:5000' : RENDER_BACKEND_URL;
