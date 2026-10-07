@@ -156,6 +156,7 @@ voiceButtons.forEach(btn => {
     voiceButtons.forEach(b => b.classList.remove('active'));
     btn.classList.add('active');
     state.voice = btn.dataset.value;
+    const RENDER_BACKEND_URL = 'https://travel-guide-2jpz.onrender.com';
   });
 });
 
