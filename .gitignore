@@ -1,0 +1,10 @@
+# Secrets / local environment
+.env
+
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Vercel CLI
+.vercel/

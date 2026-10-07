@@ -1,0 +1,24 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: Flask Backend (port 5000)",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "${workspaceFolder}/Backend/app.py",
+            "cwd": "${workspaceFolder}",
+            "console": "integratedTerminal",
+            "justMyCode": true
+        },
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Chrome: Frontend (port 5500)",
+            "url": "http://127.0.0.1:5500",
+            "webRoot": "${workspaceFolder}/Frontend"
+        }
+    ]
+}
